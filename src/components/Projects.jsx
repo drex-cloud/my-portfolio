@@ -35,7 +35,7 @@ const projectsData = [
       rec,
 
     ],
-    liveUrl: 'https://dukaos-frontend.vercel.app',
+    liveUrl: 'https://operatingsystem-lemon.vercel.app/',
     codeUrl: 'https://github.com/drex-cloud/dukaos',
 
   },
