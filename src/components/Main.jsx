@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import portImage from '../assets/port.jpeg'
 
 const Main = () => {
   return (
@@ -16,7 +17,7 @@ const Main = () => {
           <div className="mb-8">
             <img
               className="w-32 h-32 rounded-full border-4 border-lux-gold shadow-lg object-cover"
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              src={portImage}
               alt="Profile"
             />
           </div>
