@@ -12,7 +12,9 @@ import eng2 from '../assets/eng2.jpeg';
 import eng3 from '../assets/eng3.jpeg';
 import eng4 from '../assets/eng4.png';
 import eng5 from '../assets/eng5.png';
-
+import map1 from '../assets/map1.png';
+import map2 from '../assets/map2.png';
+import map3 from '../assets/map3.jpeg';
 
 
 
@@ -40,7 +42,21 @@ const projectsData = [
 
   },
   {
-    id: 2,
+    id: 2, // or whatever your next ID is
+    title: 'NomadPulse: Orbital Explorer',
+    description: "A high-concept satellite telemetry dashboard featuring a 3D interactive globe, real-time atmospheric data synchronization, and automated orbital distance calculations using the Haversine formula.",
+    tech: 'React + Mapbox GL + Tailwind CSS',
+    mainImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80', // A cool space/tech image
+    gallery: [
+      map1,
+      map2,
+      map3,
+    ],
+    liveUrl: 'nomad-pulse.vercel.app',
+    codeUrl: 'https://github.com/drex-cloud/nomad-pulse',
+  },
+  {
+    id: 3,
     title: 'EngiVault | Technical Asset Manager',
     description: "A secure, hierarchical Document Management System (DMS) built for engineering workflows. Developed a decoupled architecture to link technical specifications directly to PDF blueprints and rich-text system logs. Features a custom JWT-secured authentication gateway and a mobile-optimized 'Drafting Board' for field access.",
     tech: 'Django + DRF + PostgreSQL + Vanilla JS',
@@ -58,18 +74,7 @@ const projectsData = [
     //demoUser: 'admin',
     //demoPass: 'shop123'
   },
-  /*{
-    id: 3,
-    title: 'Engineering Calc App',
-    description: "A tool for mechanical students to solve thermodynamic equations.",
-    tech: 'Python + Streamlit',
-    mainImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80',
-    ],
-    liveUrl: '/',
-    codeUrl: '/',
-  },*/
+
 ];
 
 const Projects = () => {
