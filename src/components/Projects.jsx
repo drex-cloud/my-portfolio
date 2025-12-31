@@ -52,7 +52,7 @@ const projectsData = [
       map2,
       map3,
     ],
-    liveUrl: 'nomad-pulse.vercel.app',
+    liveUrl: 'https://nomad-pulse.vercel.app/',
     codeUrl: 'https://github.com/drex-cloud/nomad-pulse',
   },
   {
