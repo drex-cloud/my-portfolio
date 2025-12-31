@@ -23,7 +23,7 @@ const projectsData = [
   {
     id: 1,
     title: 'DukaOS - Shop Management System',
-    description: "A full- stack retail management platform featuring real - time inventory tracking, multi - role authentication(Admin / Manager / Staff), and a dynamic Point of Sale(POS) interface.Integrated with a Django REST backend and Neon PostgreSQL database.",
+    description: "A full- stack retail management platform featuring real - time inventory tracking, multi - role authentication(Admin / Manager / Staff), and a dynamic Point of Sale(POS) interface.Integrated with a Django REST Framework backend and Neon PostgreSQL database.",
     tech: 'React JS • Tailwind CSS • Django REST • PostgreSQL • JWT',
     mainImage: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80',
     // These are the images shown in the popup
