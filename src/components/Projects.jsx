@@ -38,11 +38,11 @@ const projectsData = [
 
     ],
     liveUrl: 'https://operatingsystem-lemon.vercel.app/',
-    codeUrl: 'https://github.com/drex-cloud/dukaos',
+    codeUrl: 'https://github.com/drex-cloud/dukaos-',
 
   },
   {
-    id: 2, // or whatever your next ID is
+    id: 2, // or whatever your next ID 
     title: 'NomadPulse: Orbital Explorer',
     description: "A high-concept satellite telemetry dashboard featuring a 3D interactive globe, real-time atmospheric data synchronization, and automated orbital distance calculations using the Haversine formula.",
     tech: 'React + Mapbox GL + Tailwind CSS',
