@@ -46,7 +46,7 @@ const projectsData = [
     title: 'NomadPulse: Orbital Explorer',
     description: "A high-concept satellite telemetry dashboard featuring a 3D interactive globe, real-time atmospheric data synchronization, and automated orbital distance calculations using the Haversine formula.",
     tech: 'React + Mapbox GL + Tailwind CSS',
-    mainImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80', // A cool spac
+    mainImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80', // A cool space photo
     gallery: [
       map1,
       map2,
